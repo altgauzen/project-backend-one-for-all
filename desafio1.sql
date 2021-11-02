@@ -82,7 +82,7 @@ VALUES
   ("Honey, Let's Be Silly", 4),
   ("Rock His Everything", 4),
   ("Home Forever", 4),
-  ("Thang Of ThunderThati", 5),
+  ("Thang Of Thunder", 5),
   ("Without My Streets", 5),
   ("Words Of Her Life", 5);
   
@@ -108,7 +108,7 @@ VALUES
   (3, 16),
   (3, 7),
   (4, 3),
-  (4, 5),
+  (4, 17),
   (4, 11);
 
 CREATE TABLE FOLLOWING_ARTISTS(
