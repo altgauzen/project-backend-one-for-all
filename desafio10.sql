@@ -1,0 +1,17 @@
+USE SpotifyClone;
+DELIMITER $$
+
+CREATE FUNCTION quantidade_musicas_no_historico(NOME INT)
+RETURNS INT READS SQL DATA
+BEGIN
+  DECLARE MUSIC_TOTAL INT;
+  SELECT COUNT(*)
+  FROM SpotifyClone.`HISTORY` AS H
+  INNER JOIN SpotifyClone.USERS AS U
+  ON H.user_id = U.user_id
+  WHERE U.name_user = NOME
+  INTO MUSIC_TOTAL;
+  RETURN MUSIC_TOTAL;
+END $$
+
+DELIMITER ;
