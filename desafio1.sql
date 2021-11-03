@@ -89,7 +89,7 @@ VALUES
 CREATE TABLE `HISTORY`(
   user_id INT NOT NULL,
   song_id INT NOT NULL,
-  PRIMARY KEY (user_id, song_id),
+  CONSTRAINT PRIMARY KEY (user_id, song_id),
   FOREIGN KEY (user_id) REFERENCES USERS (user_id),
   FOREIGN KEY (song_id) REFERENCES SONGS (song_id)  
 ) engine = InnoDB;
@@ -114,7 +114,7 @@ VALUES
 CREATE TABLE FOLLOWING_ARTISTS(
   user_id INT NOT NULL,
   artist_id INT NOT NULL,
-  PRIMARY KEY (user_id, artist_id),
+  CONSTRAINT PRIMARY KEY (user_id, artist_id),
   FOREIGN KEY (user_id) REFERENCES USERS (user_id),
   FOREIGN KEY (artist_id) REFERENCES ARTISTS (artist_id)
 ) engine = InnoDB;
