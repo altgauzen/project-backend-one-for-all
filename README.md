@@ -1,6 +1,13 @@
-### Termos e acordos
+# project-backend-one-for-all
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+## Meus Comentários
+
+Este foi um projeto individual feito na Trybe no Módulo de Back-end em que aprendi e treinei Normalização e Modelagem de Banco de Dados.
+Alguns dos tópicos aprendidos:
+- Transformando idéias em um modelo de banco de dados;
+- Normalização, Formas Normais e Dumps.
+
+Aproveitamento: 100% de aprovação pelos avaliadores da Trybe.
 
 ---
 
